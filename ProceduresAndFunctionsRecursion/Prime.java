@@ -13,6 +13,7 @@ public class Prime {
 //          static boolean isPrime(long n){
 //          return java.math.BigInteger.valueOf(n).isProbablePrime(1);
 //          }
+        // d
 
 
     }
