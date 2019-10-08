@@ -9,10 +9,10 @@ public class testFun {
             Scanner scan= new Scanner(System.in);
             System.out.println("Введите число для проверки:");
 
-            // считывает число
+            
             int num=scan.nextInt();
 
-            // проверяем число на простоту
+            
             for (int i=2; i<=num/2; i++) {
                 temp = num % i;
                 if (temp == 0) {
@@ -20,7 +20,7 @@ public class testFun {
                     break;
                 }
             }
-            // если переменная isPrime равна true, то число простое
+            
             if(isPrime) {
                 System.out.println(num + " - простое число");
             } else {
